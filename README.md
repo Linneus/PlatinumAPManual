@@ -1,5 +1,5 @@
 # PlatinumAPManual
-A Manual Randomizer for Pokémon Platinum, for use with the Archipelago Manual Project.
+A Manual Randomizer for Pokémon Platinum, for use with the [Archipelago Manual](https://github.com/ManualForArchipelago) Project.
 
 To prepare the ROM file:
 
