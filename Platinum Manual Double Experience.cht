@@ -1,0 +1,5 @@
+067BFC	E008	N	Main RAM	1	Ignore All Trainers	w	h	0	Equal	
+----
+241E7E	319C	480544	Main RAM	1	4x Experience Line 1	w	h	0	Equal	
+241E80	60080040	N	Main RAM	1	4x Experience Line 2	d	h	0	Equal	
+241E84	00000000	N	Main RAM	1	4x Experience Line 3	d	h	0	Equal	
