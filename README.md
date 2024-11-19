@@ -55,3 +55,12 @@ Similarly, there are options for an easier game, so tailor the experience to wha
 ## Saving your ROM
 
 When you’re done, hit “Randomize (Save)” in the top right to name/save your newly randomized ROM somewhere. You may also consider using the “Save Settings” option to revisit your options easily in the future.
+
+## Cheat Files
+
+Blind trainers and experience modifiers (found in the yamls for the other Pokémon games) are handled with Action Replay cheat codes.
+This randomizer is built for either **DeSmuME** or **EmuHawk**.
+
+For DeSmuME, load your ROM and then go to **Tools > Cheats List** and add the Action Replay codes included in the download. These will persist whenever you load that particular ROM.
+
+For EmuHawk, load your ROM and then go to **Tools > Cheats** and open one of the .cht files. This will only persist for that session, and you'll have to reopen the cheats file every time you Reboot Core.
