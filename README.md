@@ -63,4 +63,4 @@ This randomizer is built for either **DeSmuME** or **EmuHawk**.
 
 For DeSmuME, load your ROM and then go to **Tools > Cheats List** and add the Action Replay codes included in the **AR Codes.txt** file. These will persist whenever you load that particular ROM.
 
-For EmuHawk, load your ROM and then go to **Tools > Cheats** and open one of the .cht files. This will only persist for that session, and you'll have to reopen the cheats file every time you Reboot Core.
+For EmuHawk, load your ROM and then go to **Tools > Cheats** and open one of the .cht files (Blind Trainers is bundled with them both). This will only persist for that session, and you'll have to reopen the cheats file every time you Reboot Core.
