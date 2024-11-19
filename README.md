@@ -1,6 +1,8 @@
 # PlatinumAPManual
 A Manual Randomizer for Pokémon Platinum, for use with the [Archipelago Manual](https://github.com/ManualForArchipelago) Project.
 
+![Giratina from the Platinum title screen, with the Pokémon Platinum logo above it. The logo reads "Pokémon Platinum AP Manual"](https://github.com/Linneus/PlatinumAPManual/blob/main/Giratina_PlatinumManual_Screen.png?raw=true)
+
 To prepare the ROM file:
 
 
