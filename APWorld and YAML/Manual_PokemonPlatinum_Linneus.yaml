@@ -61,6 +61,14 @@ Manual_PokemonPlatinum_Linneus:
     items: 50
     minimal: 0
 
+  goal:
+    # Choose your victory condition.
+    # 
+    # Become Champion - The classic goal. Enter the hall of fame after collecting all eight badges and defeating the League.
+    # Defeat Arceus - Plate Hunt! Collect all 16 Plates to enter the Hall of Origin above Spear Pillar and defeat Arceus.
+    pokemon league - become champion: 50
+    hall of origin - defeat arceus: 0
+
   filler_traps:
     # How many fillers will be replaced with traps. 0 means no additional traps, 100 means all fillers are traps.
     #
@@ -77,11 +85,22 @@ Manual_PokemonPlatinum_Linneus:
     'false': 0
     'true': 50
 
+  veilstone_flash:
+    # Buying Flash from Veilstone Dept. Store will be considered in logic with this option.
+    'false': 50
+    'true': 0
+
+  battle_zone:
+    # Adds the Battle Zone (the Fight Area, Survival Area, Resort Area, Stark Mountain, and all Routes in between) to the list of locations.
+    # Namely, this includes all checks that require defeating Flint and Volkner at the Fight Area to access.
+    'false': 0
+    'true': 50
+
   require_dowsing_machine:
     # Hidden items require the Dowsing Machine in logic.
     # Note that this does NOT impact the Hidden Items on Route 217.
-    'false': 0
-    'true': 50
+    'false': 50
+    'true': 0
 
   require_dowsing_machine_on_route_217:
     # Hidden items on Route 217 require the Dowsing Machine in logic.
@@ -90,8 +109,14 @@ Manual_PokemonPlatinum_Linneus:
     'false': 0
     'true': 50
 
-  veilstone_flash:
-    # Buying Flash from Veilstone Dept. Store will be considered in logic with this option.
+  defog_traversal:
+    # Should entering a foggy area logically require Defog?
+    'false': 0
+    'true': 50
+
+  defog_pickup:
+    # Do items in foggy areas logically require Defog to pick up?
+    # If Defog Traversal is on, this option does nothing.
     'false': 0
     'true': 50
 
@@ -127,3 +152,9 @@ Manual_PokemonPlatinum_Linneus:
   item_links:
     # Share part of your item pool with other players.
     []
+
+  start_inventory_from_pool:
+    # Start with these items and don't place them in the world.
+    # 
+    # The game decides what the replacement items will be.
+    {}
