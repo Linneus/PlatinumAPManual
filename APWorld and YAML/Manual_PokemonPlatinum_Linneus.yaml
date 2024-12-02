@@ -120,6 +120,13 @@ Manual_PokemonPlatinum_Linneus:
     'false': 0
     'true': 50
 
+  northern_sinnoh_fly:
+    # The game logically expects you to have access to Fly
+    # before entering Northern Sinnoh.
+    # Northern Sinnoh starts at Mt. Coronet B1F.
+    'false': 50
+    'true': 0
+
   # Item & Location Options
   local_items:
     # Forces these items to be in their native world.
