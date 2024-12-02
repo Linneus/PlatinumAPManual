@@ -19,7 +19,7 @@ The normal patch will leave the game unchanged compared to its original DS relea
 
 ## Downloading and Using the Randomizer
 
-Next, download the most recent version of Universal Pokémon Randomizer ZX from [this link](https://github.com/Ajarmar/universal-pokemon-randomizer-zx/releases), and open the program with the launcher file. In the top right, click “Open ROM” and open your modified ROM.
+Next, a modified version of [Universal Pokémon Randomizer ZX](https://github.com/Ajarmar/universal-pokemon-randomizer-zx) is included with the download. Open the program with the launcher file. In the top right, click “Open ROM” and open your modified ROM.
 
 ![an image of the Universal Pokémon Randomizer ZX UI, showing "Support: Unofficial ROM"](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdYFKFQfgvMwvGgbo9k2qvpq6Ml5RRJI_WBcPipHJXbDgRhXartMlt5mWmQjCgu-6AC6C-MH0wXmEHlskqAokVm5DnlO_QvJzXHupBhlvOdMHJKK2Sr8epyUdAkXsyxyPgpylwrT9rH-bK2ff2uAjr1abE?key=QmhoNGvKP18WJBxH2sPV0g)
 
@@ -37,7 +37,7 @@ Randomizing items allows you to ignore just about all the filler items you recei
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfPFucqGjpDGnRr20DZFAlYrbK3naEbsRlo_pflgNUtzSCVykoqHOa_y0yk-Hd5ch5ZELBGqkcDmzuP0t1_6y7jGSW9K5YW24JDa2Lk6Cseg7Ktx8YQqSBj7sh-PppvNe1gqHQk80fbNSVWlQkJaaJzMpcf?key=QmhoNGvKP18WJBxH2sPV0g)
 
-Banning Bad Items will remove things like mail and useless berries, which are not in the Manual’s item pool, so this option will bring you closer to what the Manual would give you anyway.
+Most importantly, not only will the "Ban Bad Items" option will remove things like mail and useless berries (which are not in the Manual’s item pool to begin with), but this modified program will ALSO prevent Plates from showing up anywhere in the game. Using this option will force you to rely only on Plates obtained from the AP Items Room, which will be more immersive for the Plate Hunt goal.
 
 ## Foe Pokémon
 
