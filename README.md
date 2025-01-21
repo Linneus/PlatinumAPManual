@@ -64,3 +64,21 @@ This randomizer is built for either **DeSmuME** or **EmuHawk**.
 For DeSmuME, load your ROM and then go to **Tools > Cheats List** and add the Action Replay codes included in the **AR Codes.txt** file. These will persist whenever you load that particular ROM.
 
 For EmuHawk, load your ROM and then go to **Tools > Cheats** and open one of the .cht files (Blind Trainers is bundled with them both). This will only persist for that session, and you'll have to reopen the cheats file every time you Reboot Core.
+
+# Using the Manual
+
+## Opening the Launcher
+
+All releases will have a link to the Archipelago Manual APWorld and Universal Tracker. If you have those downloaded and in your custom worlds folder, begin by making sure that the YAML you used for generation is currently in the Players folder. Then, navigate to your Archipelago install, open ArchipelagoLauncher.exe, and then from that, open the Manual Client on the right side. Input the name of the Manual (Manual_PokemonPlatinum_Linneus), your room's IP and, when prompted, your slot name.
+
+## Sending and receiving Locations and Items
+
+Sending checks is done by clicking on the corresponding buttons in the client. The buttons will not work unless you are clicked into the client's window.
+
+![The Archipelago Launcher, with the Manual Client highlighted.](https://i.imgur.com/14c2HMN.png)
+![The Manual Client with Platinum loaded.](https://i.imgur.com/8laRClc.png)
+
+Located in the basements of all 18 Pokémon Centers is the AP Items Room. Cross-reference with the left side of the Manual Client and pick up items there throughout your playthrough.
+
+![The Pokémon Center escalator](https://i.imgur.com/XUBgXfd.png)
+![The AP Items Room](https://i.imgur.com/t4v6TGS.png)
