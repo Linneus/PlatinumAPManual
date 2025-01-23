@@ -1,4 +1,4 @@
-# Download and Install Archipelago, AP Manual, Universal Tracker, and the Platinum Manual.
+# Downloading and Installing Archipelago, AP Manual, Universal Tracker, and the Platinum Manual
 
 Archipelago (often abbreviated as 'AP') is a multiworld randomizer project designed to randomize different games together, but also functions as a hub for individual randomizers. Further information can be found on [their website, archipelago.gg](https://archipelago.gg/).
 
