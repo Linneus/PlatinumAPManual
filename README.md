@@ -3,7 +3,11 @@ A Manual Randomizer for Pokémon Platinum, for use with the [Archipelago Manual]
 
 ![Giratina from the Platinum title screen, with the Pokémon Platinum logo above it. The logo reads "Pokémon Platinum AP Manual"](https://github.com/Linneus/PlatinumAPManual/blob/main/Giratina_PlatinumManual_Screen.png?raw=true)
 
-To prepare the ROM file:
+# Archipelago Setup
+
+Everything that follows is a guide written for those already familiar with both Archipelago and the Manual Project. If you are starting from no knowledge on either of those, start with [this guide](https://github.com/Linneus/PlatinumAPManual/blob/main/Full%20Archipelago%20Setup%20Guide.md).
+
+If you already have an Archipelago install, and are at least moderately familiar with the Manual project, continue on.
 
 
 ## Patching and Randomizing Your ROM
