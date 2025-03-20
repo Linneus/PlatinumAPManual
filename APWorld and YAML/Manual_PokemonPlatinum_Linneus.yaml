@@ -54,11 +54,10 @@ Manual_PokemonPlatinum_Linneus:
   accessibility:
     # Set rules for reachability of your items/locations.
     # 
-    # - **Locations:** ensure everything can be reached and acquired.
-    # - **Items:** ensure all logically relevant items can be acquired.
-    # - **Minimal:** ensure what is needed to reach your goal can be acquired.
-    locations: 0
-    items: 50
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
     minimal: 0
 
   goal:
@@ -96,6 +95,23 @@ Manual_PokemonPlatinum_Linneus:
     'false': 0
     'true': 50
 
+  storage_key:
+    # Adds the Storage Key from Diamond & Pearl into the multiworld.
+    # This allows access to the Galactic Warehouse without the need to clear the three lakes.
+    # 
+    # Note that clearing the lakes still opens the Warehouse, and logic accounts for both of these.
+    'false': 50
+    'true': 0
+
+  marsh_pass:
+    # Adds the Marsh Pass item, which gates access to the Great Marsh
+    # in Pastoria City.
+    # 
+    # If this option is disabled, the Great Marsh will have no requirements
+    # and function just as it does in vanilla.
+    'false': 50
+    'true': 0
+
   require_dowsing_machine:
     # Hidden items require the Dowsing Machine in logic.
     # Note that this does NOT impact the Hidden Items on Route 217.
@@ -120,10 +136,35 @@ Manual_PokemonPlatinum_Linneus:
     'false': 0
     'true': 50
 
+  early_fly:
+    # Guarantees that Fly and the Cobble Badge will be acquired within an early sphere.
+    # Twinleaf, Sandgem, Pal Park, Jubilife, Oreburgh, and Floaroma will be the only regions logic will expect you to travel without
+    # the ability to Fly.
+    # 
+    # In a multiworld, 'HM02 Fly' and 'Cobble Badge' can be added to the local_items option for added insurance.
+    'false': 50
+    'true': 0
+
   northern_sinnoh_fly:
     # The game logically expects you to have access to Fly
     # before entering Northern Sinnoh.
     # Northern Sinnoh starts at Mt. Coronet B1F.
+    # 
+    # If Early Fly is on, this option will have no impact.
+    'false': 50
+    'true': 0
+
+  open_sunyshore:
+    # Removes the roadblock at Hotel Grand Lake preventing access to Route 222.
+    # This removes the requirement of defeating Cyrus in the Distortion World to access this area.
+    'false': 50
+    'true': 0
+
+  extra_roadblocks:
+    # Adds roadblocks to Routes 214 (directly south of Veilstone) and 212 (directly south of Hearthome).
+    # These routes cannot be traversed without Surf, which prevents access to Pastoria and the surrounding area.
+    # 
+    # This aims to take away some of the Bike's power as an access tool.
     'false': 50
     'true': 0
 
@@ -138,6 +179,12 @@ Manual_PokemonPlatinum_Linneus:
 
   start_inventory:
     # Start with these items.
+    {}
+
+  start_inventory_from_pool:
+    # Start with these items and don't place them in the world.
+    # 
+    # The game decides what the replacement items will be.
     {}
 
   start_hints:
@@ -159,9 +206,3 @@ Manual_PokemonPlatinum_Linneus:
   item_links:
     # Share part of your item pool with other players.
     []
-
-  start_inventory_from_pool:
-    # Start with these items and don't place them in the world.
-    # 
-    # The game decides what the replacement items will be.
-    {}
