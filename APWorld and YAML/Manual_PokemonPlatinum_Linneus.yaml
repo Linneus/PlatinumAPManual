@@ -32,7 +32,7 @@ description: Default Manual_PokemonPlatinum_Linneus Template
 
 game: Manual_PokemonPlatinum_Linneus
 requires:
-  version: 0.5.0 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.2 # Version of Archipelago required for this yaml to work as expected.
 
 Manual_PokemonPlatinum_Linneus:
   # Game Options
@@ -60,9 +60,12 @@ Manual_PokemonPlatinum_Linneus:
     full: 50
     minimal: 0
 
+  plando_items:
+    # Generic items plando.
+    []
+
   goal:
-    # Choose your victory condition.
-    # 
+    # Choose your victory condition:
     # Become Champion - The classic goal. Enter the hall of fame after collecting all eight badges and defeating the League.
     # Defeat Arceus - Plate Hunt! Collect all 16 Plates to enter the Hall of Origin above Spear Pillar and defeat Arceus.
     pokemon league - become champion: 50
@@ -79,44 +82,17 @@ Manual_PokemonPlatinum_Linneus:
     random-low: 0
     random-high: 0
 
+  # Hidden Items
   randomize_hidden_items:
-    # Shuffles hidden items into the pool
+    # Shuffles hidden items into the pool.
     'false': 0
     'true': 50
-
-  veilstone_flash:
-    # Buying Flash from Veilstone Dept. Store will be considered in logic with this option.
-    'false': 50
-    'true': 0
-
-  battle_zone:
-    # Adds the Battle Zone (the Fight Area, Survival Area, Resort Area, Stark Mountain, and all Routes in between) to the list of locations.
-    # Namely, this includes all checks that require defeating Flint and Volkner at the Fight Area to access.
-    'false': 0
-    'true': 50
-
-  storage_key:
-    # Adds the Storage Key from Diamond & Pearl into the multiworld.
-    # This allows access to the Galactic Warehouse without the need to clear the three lakes.
-    # 
-    # Note that clearing the lakes still opens the Warehouse, and logic accounts for both of these.
-    'false': 50
-    'true': 0
-
-  marsh_pass:
-    # Adds the Marsh Pass item, which gates access to the Great Marsh
-    # in Pastoria City.
-    # 
-    # If this option is disabled, the Great Marsh will have no requirements
-    # and function just as it does in vanilla.
-    'false': 50
-    'true': 0
 
   require_dowsing_machine:
     # Hidden items require the Dowsing Machine in logic.
     # Note that this does NOT impact the Hidden Items on Route 217.
-    'false': 50
-    'true': 0
+    'false': 0
+    'true': 50
 
   require_dowsing_machine_on_route_217:
     # Hidden items on Route 217 require the Dowsing Machine in logic.
@@ -125,22 +101,24 @@ Manual_PokemonPlatinum_Linneus:
     'false': 0
     'true': 50
 
+  # Defog
   defog_traversal:
-    # Should entering a foggy area logically require Defog?
+    # Entering foggy areas logically requires Defog.
     'false': 0
     'true': 50
 
   defog_pickup:
-    # Do items in foggy areas logically require Defog to pick up?
+    # Items in foggy areas logically require Defog to pick up.
     # If Defog Traversal is on, this option does nothing.
     'false': 0
     'true': 50
 
+  # Fly Access
   early_fly:
     # Guarantees that Fly and the Cobble Badge will be acquired within an early sphere.
-    # Twinleaf, Sandgem, Pal Park, Jubilife, Oreburgh, and Floaroma will be the only regions logic will expect you to travel without
-    # the ability to Fly.
-    # 
+    # Twinleaf, Sandgem, Pal Park, Jubilife, Oreburgh, and Floaroma will be the only regions logic will expect you to
+    # travel without the ability to Fly.
+    #  
     # In a multiworld, 'HM02 Fly' and 'Cobble Badge' can be added to the local_items option for added insurance.
     'false': 50
     'true': 0
@@ -148,9 +126,22 @@ Manual_PokemonPlatinum_Linneus:
   northern_sinnoh_fly:
     # The game logically expects you to have access to Fly
     # before entering Northern Sinnoh.
-    # Northern Sinnoh starts at Mt. Coronet B1F.
-    # 
+    #  
     # If Early Fly is on, this option will have no impact.
+    'false': 50
+    'true': 0
+
+  # Extra Items and Roadblocks
+  storage_key:
+    # Adds the Storage Key from Diamond & Pearl into the multiworld.
+    # This allows access to the Galactic Warehouse without the need to clear the three lakes.
+    #  
+    # Note that clearing the lakes still opens the Warehouse, and logic accounts for both of these.
+    'false': 50
+    'true': 0
+
+  veilstone_flash:
+    # Buying Flash from Veilstone Dept. Store will be considered in logic with this option.
     'false': 50
     'true': 0
 
@@ -163,8 +154,38 @@ Manual_PokemonPlatinum_Linneus:
   extra_roadblocks:
     # Adds roadblocks to Routes 214 (directly south of Veilstone) and 212 (directly south of Hearthome).
     # These routes cannot be traversed without Surf, which prevents access to Pastoria and the surrounding area.
-    # 
+    #  
     # This aims to take away some of the Bike's power as an access tool.
+    'false': 50
+    'true': 0
+
+  marsh_pass:
+    # Adds the Marsh Pass item, which gates access to the Great Marsh
+    # in Pastoria City.
+    #  
+    # If this option is disabled, the Great Marsh will have no requirements
+    # and function just as it does in vanilla.
+    'false': 50
+    'true': 0
+
+  # Battle Zone
+  battle_zone:
+    # Adds the Battle Zone (the Fight Area, Survival Area, Resort Area, Stark Mountain, and all Routes in between) to the list of locations.
+    # Namely, this includes all checks that require defeating Flint and Volkner at the Fight Area to access.
+    'false': 0
+    'true': 50
+
+  # Berry Hunting
+  berry_tree_shuffle:
+    # Adds all 118 Berry Trees as locations.
+    'false': 50
+    'true': 0
+
+  pick_a_peck_accessories:
+    # The 22 Accessories in Floaroma's Pick A Peck of Colors Flower Shop will be added as locations.
+    #  
+    # This adds all of the berries necessary to buy these accessories as items to the pool.
+    # Accessories will either cost 1 Berry, or 1/10th of the Berries needed in the base game.
     'false': 50
     'true': 0
 
