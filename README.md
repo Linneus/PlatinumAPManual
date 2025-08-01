@@ -59,6 +59,7 @@ Similarly, there are options for an easier game, so tailor the experience to wha
 ## Saving your ROM
 
 When you’re done, hit “Randomize (Save)” in the top right to name/save your newly randomized ROM somewhere. You may also consider using the “Save Settings” option to revisit your options easily in the future.
+After saving, I would also recommend using the "Produce File" button to easily reproduce your ROM with the exact randomization in case of any issue that may require a new ROM or patch.
 
 ## Cheat Files
 
@@ -73,16 +74,20 @@ For EmuHawk, load your ROM and then go to **Tools > Cheats** and open one of the
 
 ## Opening the Launcher
 
-All releases will have a link to the Archipelago Manual APWorld and Universal Tracker. If you have those downloaded and in your custom worlds folder, begin by making sure that the YAML you used for generation is currently in the Players folder. Then, navigate to your Archipelago install, open ArchipelagoLauncher.exe, and then from that, open the Manual Client on the right side. Input the name of the Manual (Manual_PokemonPlatinum_Linneus), your room's IP and, when prompted, your slot name.
+All releases will have a link to the Archipelago Manual APWorld and Universal Tracker. If you have those downloaded and in your custom worlds folder, begin by making sure that the YAML you used for generation is currently in the Players folder. Then, navigate to your Archipelago install, open ArchipelagoLauncher.exe, and then from that, open the Manual Client on the right side. Select the name of the Manual in the dropdown list (Manual_PokemonPlatinum_Linneus), your room's code and, when prompted, your slot name.
 
 ## Sending and receiving Locations and Items
 
 Sending checks is done by clicking on the corresponding buttons in the client. The buttons will not work unless you are clicked into the client's window.
 
-![The Archipelago Launcher, with the Manual Client highlighted.](https://i.imgur.com/14c2HMN.png)
+![The Archipelago Launcher, with the Manual Client highlighted.](https://i.imgur.com/yUZD5xL.png)
 ![The Manual Client with Platinum loaded.](https://i.imgur.com/8laRClc.png)
 
 Located in the basements of all 18 Pokémon Centers is the AP Items Room. Cross-reference with the left side of the Manual Client and pick up items there throughout your playthrough.
 
 ![The Pokémon Center escalator](https://i.imgur.com/XUBgXfd.png)
 ![The AP Items Room](https://i.imgur.com/t4v6TGS.png)
+
+If the player is only in need of a Progression Item needed to proceed in the game, press the R Button to bring up the AP PDA menu, and select an item at virtually any time.
+
+![A menu with options for Key Items, HMs, Badges, Pokétch, Pokédex, and Berries is on the screen on Route 205. A text box reads "Hello! AP Items Room here. What category are you looking into?"](https://i.imgur.com/hAkRTQK.png)
